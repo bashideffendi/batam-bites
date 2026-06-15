@@ -12,6 +12,7 @@ export interface Place {
   labels: RecLabel[];
   desc_id: string;
   desc_en: string;
+  desc_zh?: string;
   signature: string;
   price_tier: PriceTier;
   price_idr: string;

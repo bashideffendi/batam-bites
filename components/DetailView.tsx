@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Thumb from "./Thumb";
 import FavButton from "./FavButton";
 import { HalalBadge, LabelBadge } from "./Badges";
-import { useI18n, catName } from "@/lib/i18n";
+import { useI18n, catName, placeDesc } from "@/lib/i18n";
 import { useCurrency } from "@/lib/currency";
 import { categoryMap, areaMap, ferryMap } from "@/lib/data";
 import { formatRating, formatReviews, isOpenNow } from "@/lib/format";
@@ -47,7 +47,7 @@ export default function DetailView({ place: p }: { place: PlaceWithGeo }) {
   const area = areaMap[p.area]?.name ?? "";
   const ferry = ferryMap[p.nearestFerryId];
   const open = isOpenNow(p.hours);
-  const desc = lang === "id" ? p.desc_id : p.desc_en;
+  const desc = placeDesc(lang, p);
 
   const share = async () => {
     const url = typeof window !== "undefined" ? window.location.href : "";

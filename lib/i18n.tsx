@@ -173,3 +173,13 @@ export function catName(
   if (!c) return "";
   return lang === "id" ? c.name_id : lang === "zh" ? c.name_zh : c.name_en;
 }
+
+/** Localised place description (zh falls back to en when not translated). */
+export function placeDesc(
+  lang: Lang,
+  p: { desc_id: string; desc_en: string; desc_zh?: string },
+): string {
+  if (lang === "id") return p.desc_id;
+  if (lang === "zh") return p.desc_zh || p.desc_en;
+  return p.desc_en;
+}

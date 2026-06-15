@@ -44,7 +44,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "传奇水上吊脚楼海鲜餐厅，几代人的最爱，深受新加坡和马来西亚游客欢迎。适合大团聚餐，招牌有巴东辣椒蟹、牛油虾和白灼香螺(gonggong)。"
   },
   {
     "id": "rezeki-seafood",
@@ -89,7 +90,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "建于1980年代的海上吊脚楼海鲜餐厅，本地人最爱，距汉那丁机场仅5至10分钟车程。其辣椒蟹被誉为全岛数一数二。"
   },
   {
     "id": "wey-wey-seafood",
@@ -136,7 +138,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Harbour Bay最知名的海边海鲜餐厅，距渡轮码头仅几分钟，常常坐满新马游客。咸蛋黄/黑胡椒螃蟹和麦片虾是这里的招牌。"
   },
   {
     "id": "sei-enam-seafood",
@@ -182,7 +185,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "始于1970年代的传奇海鲜餐厅，配备中式旋转圆桌，常被赞为巴淡岛最好吃的海鲜，适合重味道多过价钱的食客。"
   },
   {
     "id": "gerai-nelayan-2m-kelong-arjam",
@@ -223,7 +227,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于巴淡岛北岸的吊脚楼餐厅，每周消耗超过70公斤香螺(gonggong)，由Buluh岛和Rempang岛的渔民供应，深受外国游客欢迎。"
   },
   {
     "id": "barelang-seafood",
@@ -268,7 +273,8 @@
     ],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "可一边欣赏巴蓝降大桥(Barelang Bridge)和日落一边品尝海鲜的好去处，现场挑选新鲜海产，连官员也常光顾。"
   },
   {
     "id": "kopak-jaya-007-kelong",
@@ -312,7 +318,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴蓝降(Barelang)氛围感最强的海上吊脚楼(kelong)用餐体验：临海、看日落、从水缸里现挑海鲜，真正值得专程一去。"
   },
   {
     "id": "harbour-bay-seafood",
@@ -354,7 +361,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "坐落Harbour Bay海滨，融合印尼与中式风味，可赏日落，周末还有现场音乐。"
   },
   {
     "id": "love-seafood",
@@ -398,7 +406,8 @@
     ],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡中心(Batam Centre)人气最旺的海鲜餐厅之一，堂食空间宽敞，适合团体，上菜快，新鲜大虾最抢镜。"
   },
   {
     "id": "nomnom-seafood",
@@ -438,7 +447,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于Seraya 168美食广场的海鲜摊，以香螺(gonggong)、各式鲜虾和臭豆(petai)闻名，价格亲民。"
   },
   {
     "id": "dsteam-seafood",
@@ -475,7 +485,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "据TripAdvisor游客评价，是巴淡岛清蒸海鲜数一数二的好去处。"
   },
   {
     "id": "yong-kee-istimewa",
@@ -519,7 +530,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛鱼汤(sup ikan)的招牌老店，自称印尼海鲜汤的开创者；汤底清澈鲜甜配马鲛鱼，午市常常座无虚席。注意隔壁有山寨档口。"
   },
   {
     "id": "sop-ikan-aliang",
@@ -558,7 +570,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "藏身Nongsa警岗附近、连招牌都没有的隐世小店；纯鱼汤或杂锦鱼汤配米粉，常常未到中午就售罄。"
   },
   {
     "id": "sop-ikan-kok-heng",
@@ -596,7 +609,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Penuin一带的传奇鱼汤店，鱼料分量十足，从早营业到晚。"
   },
   {
     "id": "hokkian-sop-ikan",
@@ -635,7 +649,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya一间约30年历史的鱼汤老店，供应原味鱼汤和叻沙鱼汤。"
   },
   {
     "id": "sop-ikan-windsor",
@@ -674,7 +689,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于Lubuk Baja的Windsor Central的传奇鱼汤店，招牌是鱼汤和亚参鱼(asam pedas)。"
   },
   {
     "id": "mie-terempak",
@@ -716,7 +732,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "品尝达临巴扁面(mie tarempa)最稳妥的地址，甜咸微辣酱汁配金枪鱼，再加必试的鱼酥饼(luti gendang)，最能代表廖内群岛的饮食文化。"
   },
   {
     "id": "kedai-kopi-harum-manis",
@@ -760,7 +777,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛传奇早餐：黏面(mie lendir，黄面配浓花生酱汁加水煮蛋)、咖喱饭、印度煎饼(prata)和拉茶(kopi tarik)。招牌菜很快售罄，记得早到。"
   },
   {
     "id": "pusat-luti-gendang",
@@ -802,7 +820,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "专卖廖内群岛特色鱼酥饼(luti gendang)的店——油炸面包夹金枪鱼/江鱼仔/虾肉松，以Belian为总店，Bengkong Laut分店24小时营业。"
   },
   {
     "id": "nasi-ayam-budi",
@@ -845,7 +864,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛最有名、最稳定的海南鸡饭，游客首选：饭香、鸡嫩、参巴酱(sambal)出色，24小时营业，称霸超过15年的老字号。"
   },
   {
     "id": "papa-kopitiam",
@@ -886,7 +906,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "传承新加坡食谱的海南鸡饭，自1986年扎根Bengkong Laut，清真。"
   },
   {
     "id": "nasi-ayam-ciang-hau",
@@ -923,7 +944,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于巴淡市Mitra Raya一带的海南鸡饭，分量大，带新加坡风味。"
   },
   {
     "id": "nasi-ayam-laupa",
@@ -960,7 +982,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的海南鸡饭，鸡饭油香十足，鸡汤香气浓郁。"
   },
   {
     "id": "nasi-ayam-oki-118",
@@ -997,7 +1020,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于Harbour Bay渡轮码头(Kampoeng Mama)的海南鸡饭，鸡肉鲜嫩、分量大，登船前来一份正合适。"
   },
   {
     "id": "nasi-ayam-hengky",
@@ -1034,7 +1058,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya室内美食广场内的海南鸡饭与粥品，清真，从早营业到晚。"
   },
   {
     "id": "kedai-kopi-ameng",
@@ -1077,7 +1102,8 @@
     ],
     "featured": true,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "源自Belakang Padang、始于1980年的传奇咖啡店(kopitiam)，冰拉茶被誉为巴淡岛最好喝，如今已有五六家分店。供应黏面、椰浆菜饭(lontong sayur)、椰浆饭(nasi lemak)等马来式早餐。"
   },
   {
     "id": "mentari-kopitiam-pasir-putih",
@@ -1120,7 +1146,8 @@
     ],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Pasir Putih市场内正当红的咖啡店，椰浆饭(nasi lemak)、叻沙和烤面包最出彩，空间宽敞明亮。"
   },
   {
     "id": "atoks-coffee",
@@ -1164,7 +1191,8 @@
     ],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "现代风咖啡店，适合家庭和酒店住客，却依旧主打本地马来料理，三花咖啡(kopi sanger)和牛油咖啡广受好评。WiFi快、价格实惠。"
   },
   {
     "id": "kedai-kopi-medan",
@@ -1203,7 +1231,8 @@
     "tags": [],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya人气经济早餐店，主打lopis糯米糕、马来面汤(mee soto)、椰浆糕(lontong)、香饭(nasi uduk)和带镬气的炒粿条。"
   },
   {
     "id": "kopi-gembira",
@@ -1241,7 +1270,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya一带约20年历史的传奇咖啡店。"
   },
   {
     "id": "anambas-kopitiam-nagoya",
@@ -1279,7 +1309,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的马来华人风味浓咖啡，配烤面包、咖椰(kaya)吐司、椰浆饭和煎饼(martabak)。"
   },
   {
     "id": "cafe-lim-kok-tong",
@@ -1318,7 +1349,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "源自Pematang Siantar、始于1925年的正宗咖啡品牌，如今落户Nagoya。"
   },
   {
     "id": "sin-wei-kopitiam",
@@ -1356,7 +1388,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "以叉烧和烧肉(sio bak，被誉为巴淡岛最好的烧肉)闻名的咖啡店，另有海南饭。非清真。"
   },
   {
     "id": "nagoya-thamrin-kopitiam",
@@ -1397,7 +1430,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya Thamrin City内全冷气的咖啡店兼美食广场，供应印尼群岛料理和中式菜，价格实惠。"
   },
   {
     "id": "martabak-har",
@@ -1442,7 +1476,8 @@
     ],
     "featured": true,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "24小时营业的传奇印度煎饼(martabak)与印度甩饼(prata)店；羊肉/牛肉/鸡肉煎饼、印度抛饼(roti canai)、印度香饭(briyani)和拉茶应有尽有，是巴淡岛标志性的宵夜。"
   },
   {
     "id": "putri-prata",
@@ -1479,7 +1514,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "印度煎饼(prata)摊，有香蕉、牛油和鸡蛋等口味，在巴淡岛多处设点。"
   },
   {
     "id": "maharani-prata",
@@ -1516,7 +1552,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Sekupang的Tiban Indah Permai一带，供应印度煎饼(prata)和甜味煎饼(martabak)。"
   },
   {
     "id": "restaurant-habibis",
@@ -1555,7 +1592,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Batu Ampar的印度料理餐厅，供应印度香饭(briyani)、烤饼(naan)和煎饼(martabak)。"
   },
   {
     "id": "mie-pangsit-harum",
@@ -1592,7 +1630,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Penuin Centre的鸡肉面与馄饨店，清晨开档。"
   },
   {
     "id": "bakso-mie-ayam-murah-rezeki",
@@ -1629,7 +1668,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡市Sungai Panas一带物美价廉、评价极高的鸡肉面和肉丸(bakso)。"
   },
   {
     "id": "mie-ayam-jakarta-bude",
@@ -1667,7 +1707,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Tiban 1的隐世平价鸡肉面，从早营业到晚。"
   },
   {
     "id": "mie-ayam-bakso-semeru",
@@ -1705,7 +1746,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bida Asri 2的红油鸡肉面和牛筋肉丸，还有诱人的榴莲冰。"
   },
   {
     "id": "mie-ayam-gerobakan-legendaris",
@@ -1743,7 +1785,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "传奇手推车鸡肉面(含绿色鸡肉面)，分布于Bengkong Harapan市场、Palm Spring Batam Centre和Baloi Indah。"
   },
   {
     "id": "kwetiau-acek-sancheez",
@@ -1781,7 +1824,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛传奇粿条。非清真。"
   },
   {
     "id": "bakmi-botak-cun",
@@ -1819,7 +1863,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya室内美食广场内的传奇棉兰式拌面(bakmi)。非清真。"
   },
   {
     "id": "mi-ekonomi",
@@ -1856,7 +1901,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "经济实惠的拌面和粿条，几乎每个巴淡岛美食广场都有。"
   },
   {
     "id": "bubur-ayam-teteh",
@@ -1893,7 +1939,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Legenda的鸡肉粥配各式沙嗲(sate)小串，清晨开档。"
   },
   {
     "id": "bubur-ayam-bogor-pak-djadja",
@@ -1931,7 +1978,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡中心居民熟知的传奇茂物式鸡肉粥。"
   },
   {
     "id": "bubur-ayam-dwi",
@@ -1968,7 +2016,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Botania Garden评价极高的鸡肉粥、马鲛鱼粥和榴莲糯米。"
   },
   {
     "id": "bubur-ayam-aini-88",
@@ -2005,7 +2054,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Kabil评价极高的鸡肉粥，配肝脏、肠子和鹌鹑蛋等各式沙嗲(sate)。"
   },
   {
     "id": "bubur-ayam-dago-09",
@@ -2043,7 +2093,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Tiban超人气的万隆式鸡肉粥，常常早上八九点就卖光。"
   },
   {
     "id": "bubur-kodok-mee-hoon-kueh",
@@ -2081,7 +2132,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Baloi Abadi评价极高的马鲛鱼粥、煲仔菜和面粉粿(mee hoon kueh)。"
   },
   {
     "id": "bubur-cece-888",
@@ -2118,7 +2170,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的Batama Nusa Permai评价极高的粥品和海鲜。"
   },
   {
     "id": "ranah-minang",
@@ -2155,7 +2208,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴东饭(nasi padang)餐厅，在巴淡岛有四家分店，以香料浓郁的菜肴闻名。"
   },
   {
     "id": "dendeng-baka",
@@ -2192,7 +2246,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴东饭餐厅，招牌是烤香脆牛肉干(dendeng bakar)，设点于KDA、Kabil和Mega Legenda。"
   },
   {
     "id": "salero-basamo",
@@ -2229,7 +2284,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴东饭餐厅，招牌是炸pop鸡(ayam pop)，在巴淡岛多处设点。"
   },
   {
     "id": "rm-pauh-piaman",
@@ -2267,7 +2323,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "正宗巴东Pariaman食谱，热饭免费添加，约50种配菜；招牌是鱼头咖喱(gulai kepala ikan)。"
   },
   {
     "id": "rm-pangek-ombilin",
@@ -2304,7 +2361,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "评价极高的巴东饭餐厅，招牌是pangek鱼。"
   },
   {
     "id": "rm-padang-pondok-bunda",
@@ -2340,7 +2398,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛一家评价极高的巴东饭餐厅。"
   },
   {
     "id": "rm-sederhana",
@@ -2380,7 +2439,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Sederhana巴东饭连锁，进驻Mega Mall Batam Centre和Kepri Mall。"
   },
   {
     "id": "ampera-densiko",
@@ -2419,7 +2479,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于Bengkong Indah、被誉为巴淡岛最传奇的巴东饭餐厅。"
   },
   {
     "id": "nasi-kapau-pak-nin",
@@ -2457,7 +2518,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Tiban一带的卡帕乌饭(nasi kapau)，招牌是牛肠酿(tambusu)和肥牛(gajebo)。"
   },
   {
     "id": "saung-sunda-sawargi",
@@ -2498,7 +2560,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "充满竹亭(saung)风情的巽他料理餐厅，位于巴淡市，供应汤饭(nasi liwet)、包烧菜(pepes)和鲜蔬。"
   },
   {
     "id": "pondok-batam-kuring",
@@ -2542,7 +2605,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "始于1992年的传奇巽他料理餐厅，坐落Bukit Senyum，可眺望新加坡方向的景色。"
   },
   {
     "id": "ikan-bakar-cianjur",
@@ -2582,7 +2646,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Jl. Engku Putri一带评价极高的巽他料理餐厅，主打烤鱼。"
   },
   {
     "id": "boboko-euis",
@@ -2622,7 +2687,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Legenda Junction的巽他自助餐，30多道菜，免费鲜蔬。"
   },
   {
     "id": "waroeng-sunda-teh-sinta",
@@ -2662,7 +2728,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Mall Batam Centre的巽他自助餐，30多道特色菜，免费鲜蔬。"
   },
   {
     "id": "bebek-goreng-h-slamet",
@@ -2699,7 +2766,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "香料腌制的酥脆炸鸭配辣椒酱(sambal korek)，位于Lubuk Baja，BCS Mall对面。"
   },
   {
     "id": "bebek-carok",
@@ -2737,7 +2805,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛招牌马都拉黑酱鸭和南姜鸭。"
   },
   {
     "id": "sate-kendal-dbyo",
@@ -2773,7 +2842,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "鲜嫩的羊肉沙嗲(sate kambing)，常有名人光顾，设点于Belian和Orchid Park。"
   },
   {
     "id": "van-demang",
@@ -2810,7 +2880,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "带荷兰殖民时代咖啡店风情的红沙嗲(sate merah)，位于Anggrek Mas Centre。"
   },
   {
     "id": "gulai-sate-asih",
@@ -2849,7 +2920,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong Indah的传奇羊肉沙嗲与羊肉咖喱，从前隔壁还曾有羊圈。"
   },
   {
     "id": "baa-baa-kambing",
@@ -2887,7 +2959,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Legenda的羊肉料理全席：鲜嫩无膻味的羊肉沙嗲、咖喱、羊骨汤(tengkleng)和羊肉浓汤(tongseng)。"
   },
   {
     "id": "sop-tulang-sapi-nunung",
@@ -2924,7 +2997,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Belian的鲜嫩烤牛肋和牛骨汤，价格实惠，总是座无虚席。"
   },
   {
     "id": "bakso-gres",
@@ -2961,7 +3035,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "牛筋满满的肉丸(bakso)，位于Nagoya BRI银行前的Center Point。"
   },
   {
     "id": "bakso-putro-solo",
@@ -2998,7 +3073,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "以大锅巨型肉丸(bakso kawah)闻名，设点于Aviari、Simpang RKT、Mega Legenda 2和Bengkong Sadai。"
   },
   {
     "id": "bakso-barcelona-pak-kumis",
@@ -3034,7 +3110,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "分量足、价格便宜的肉丸,在巴淡岛有五家分店。"
   },
   {
     "id": "bakso-bakmi-sri-ayu",
@@ -3071,7 +3148,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Legenda的杂锦肉丸和鸡肉香菇牛筋拌面，清真。"
   },
   {
     "id": "bakso-arema-cakgik",
@@ -3108,7 +3186,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛美味的Arema式肉丸配馄饨。"
   },
   {
     "id": "bakso-ujang-mak-inyong",
@@ -3144,7 +3223,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong Nusantara深受Bengkong居民喜爱的肉丸店。"
   },
   {
     "id": "bakso-psg",
@@ -3181,7 +3261,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Mega Legenda的100%纯牛肉肉丸和美味鸡肉面,从下午营业到午夜。"
   },
   {
     "id": "tjap-nyonya-dimsum",
@@ -3219,7 +3300,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "口味繁多的点心和水面(suimian),在巴淡岛有多家分店。"
   },
   {
     "id": "imperial-kitchen-dimsum",
@@ -3259,7 +3341,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡市Jl. Ahmad Yani的正宗点心和中式料理。"
   },
   {
     "id": "shang-dimsum",
@@ -3297,7 +3380,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong的Sadai一带价格实惠的清真点心,清晨开档。"
   },
   {
     "id": "ciao-dimsum-kopi",
@@ -3338,7 +3422,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Teluk Tering的Business Centre,点心任食(自助)配咖啡。"
   },
   {
     "id": "dimsum-makcik-kopitiam",
@@ -3375,7 +3460,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛的点心,配诱人参巴酱(sambal)。"
   },
   {
     "id": "shuang-hong-bak-kut-teh",
@@ -3413,7 +3499,8 @@
     "tags": [],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya旅游区内颇有名气的肉骨茶,汤头鲜香、肉质软嫩。非清真。"
   },
   {
     "id": "bak-kut-teh-mickey-mouse-66",
@@ -3452,7 +3539,8 @@
     "tags": [],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "潮州式清汤肉骨茶,排骨软烂脱骨,巴淡岛版本不会太药材味,是非清真早餐的最爱。非清真。"
   },
   {
     "id": "duck-king",
@@ -3490,7 +3578,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nagoya City Walk的烤鸭和中式料理。"
   },
   {
     "id": "bpk-king-one",
@@ -3526,7 +3615,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong的Golden City供应卡罗式烤猪(BPK)。非清真。"
   },
   {
     "id": "ayam-penyet-minak-djinggo",
@@ -3563,7 +3653,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "平价的拍扁炸鸡(ayam penyet)和炸鲶鱼(pecel lele),位于Lubuk Baja/Baloi的Ocean对面。"
   },
   {
     "id": "ayam-geprek-red-devil",
@@ -3599,7 +3690,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的Jl. Teuku Umar的香辣拍扁炸鸡(ayam geprek)。"
   },
   {
     "id": "ayam-penyet-ngangeni",
@@ -3637,7 +3729,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡市Bunga Raya的拍扁炸鸡和炸鲶鱼,配青参巴酱(sambal ijo)。"
   },
   {
     "id": "kampoeng-penyet",
@@ -3677,7 +3770,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡中心的平价拍扁炸鸡、鸡肉面和肉丸。"
   },
   {
     "id": "merah-putih-ayam-kampung",
@@ -3714,7 +3808,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "巴淡岛的炸走地鸡(ayam kampung)和羊肉浓汤(tongseng)。"
   },
   {
     "id": "pujasera-tiban-center",
@@ -3752,7 +3847,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Sekupang的Tiban Indah的美食广场,主打拍扁炸鸡和乡村风珍多冰(es cendol)。"
   },
   {
     "id": "pecal-sabar-menanti",
@@ -3790,7 +3886,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Belian的Pasar Mustafa,花生酱拌饭团(lontong pecel)配炸物。"
   },
   {
     "id": "kampoeng-noodle-nasi-lemak",
@@ -3830,7 +3927,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "始于1978年的食谱,供应椰浆饭(nasi lemak)、椰浆菜饭(lontong sayur)和糕点,位于巴淡市Mitra Raya 2。"
   },
   {
     "id": "mb-kopitiam-pasir-putih",
@@ -3869,7 +3967,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "源自丹戎槟榔、始于1998年的传奇老店(已传至第二/三代),Pasir Putih市场内的平价椰浆饭和加多加多(gado-gado)。"
   },
   {
     "id": "rm-amel-seafood-nongsa",
@@ -3910,7 +4009,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Nongsa海滩边经营超过20年的马来式早餐:加多加多(gado-gado)、黏面(mie lendir)、印度煎饼(prata)和椰浆饭(nasi lemak)。"
   },
   {
     "id": "nasi-lemak-wak-tige",
@@ -3946,7 +4046,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong Sadai的椰浆饭(nasi lemak),配omega蛋/流心鸭蛋,清真。"
   },
   {
     "id": "kek-pisang-villa",
@@ -3990,7 +4091,8 @@
     ],
     "featured": true,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "始于2006年的巴淡岛香蕉蛋糕(kek pisang)开创者,口味繁多,离岛前必买伴手礼。多处门店有售,包括汉那丁机场。"
   },
   {
     "id": "lapisa-nagoya-hill",
@@ -4034,7 +4136,8 @@
     ],
     "featured": true,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "评价极高的现代巴淡岛千层蛋糕(layer cake),牛油香浓、口感绵软,在Nagoya Hill购买极为方便。店员亲切、试吃稳定,口碑相传。"
   },
   {
     "id": "bingka-bakar-nayadam",
@@ -4072,7 +4175,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Sagulung和巴淡中心的巴淡岛特色烤班加糕(bingka bakar)和江鱼仔饼(kue bilis)。"
   },
   {
     "id": "lamoist-layers-cake",
@@ -4110,7 +4214,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Hypermart Nagoya和BCS Mall的多口味绵软千层蛋糕。"
   },
   {
     "id": "batam-ogura",
@@ -4148,7 +4253,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "口感轻盈的相思蛋糕(ogura cake),多处门店有售,包括机场。"
   },
   {
     "id": "mamma-otak-otak",
@@ -4186,7 +4292,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的Penuin,始于1982年祖传食谱的乌达(otak-otak)。"
   },
   {
     "id": "acong-otak-otak",
@@ -4222,7 +4329,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "椰叶包裹的马鲛鱼乌达(otak-otak),巴淡岛特色。"
   },
   {
     "id": "epok-epok-ana",
@@ -4259,7 +4367,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Bengkong Laut的咖喱角(epok-epok),内馅有马铃薯、沙丁鱼和鸡蛋。"
   },
   {
     "id": "anchor-cafe-roastery",
@@ -4298,7 +4407,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "自家烘焙Gayo/Mandailing/Toraja咖啡豆的精品咖啡馆,位于巴淡市Sukajadi。"
   },
   {
     "id": "the-smith",
@@ -4339,7 +4449,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "甜品咖啡馆,供应千层可丽饼(mille crepes)、红丝绒和马卡龙,设点于BCS、Mega Mall和Nagoya Hill。"
   },
   {
     "id": "roemah-pohon",
@@ -4378,7 +4489,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "以与树木融为一体为概念的半户外咖啡馆,位于Nongsa的Batu Besar。"
   },
   {
     "id": "pantai-cafe",
@@ -4418,7 +4530,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Tanjung Uma的咖啡馆,有现场音乐和海滩景观,从傍晚营业到凌晨。"
   },
   {
     "id": "chemistree-cafe",
@@ -4458,7 +4571,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Belian的咖啡馆,室内中央有一棵大树,还设有玻璃桥。"
   },
   {
     "id": "liminal-coffee-bites",
@@ -4496,7 +4610,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "位于Batu Ampar的Harbour Bay Downtown的The Promenade的咖啡与小食咖啡馆。"
   },
   {
     "id": "cafe-bukit-cinta",
@@ -4535,7 +4650,8 @@
     ],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Lubuk Baja的Kampung Pelita,可居高俯瞰城市景色的咖啡馆。"
   },
   {
     "id": "rubeka-coffee",
@@ -4572,7 +4688,8 @@
     "tags": [],
     "featured": false,
     "verified": false,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "Sekupang的Tiban Lama,以古董陈列为概念的复古咖啡馆。"
   },
   {
     "id": "abun-cha-kue",
@@ -4613,6 +4730,7 @@
     "tags": [],
     "featured": false,
     "verified": true,
-    "last_verified": "2026-06"
+    "last_verified": "2026-06",
+    "desc_zh": "凭招牌Cha Kue 3T脱颖而出的炒粿(cha kue)摊,本地华人社区街头美食爱好者的好去处。藏身Gideon Hotel后方。"
   }
 ]

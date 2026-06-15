@@ -77,6 +77,7 @@ function matches(p: PlaceWithGeo, s: FilterState): boolean {
       p.signature,
       p.desc_id,
       p.desc_en,
+      p.desc_zh ?? "",
       p.address,
       ...p.subcategory,
       ...p.tags,
