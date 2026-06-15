@@ -8,11 +8,15 @@ import {
   useCallback,
   type ReactNode,
 } from "react";
-import { places as ALL } from "./data";
+import { places as ALL, haversineKm } from "./data";
 import { isOpenNow } from "./format";
 import type { HalalStatus, PriceTier, RecLabel, PlaceWithGeo } from "./types";
 
-export type SortKey = "featured" | "rating" | "ferry" | "az";
+export type SortKey = "featured" | "rating" | "ferry" | "az" | "nearby";
+export interface LatLng {
+  lat: number;
+  lng: number;
+}
 
 export interface FilterState {
   query: string;
@@ -24,6 +28,7 @@ export interface FilterState {
   ferry: string | null;
   openNow: boolean;
   sort: SortKey;
+  userLoc: LatLng | null;
 }
 
 const EMPTY: FilterState = {
@@ -36,6 +41,7 @@ const EMPTY: FilterState = {
   ferry: null,
   openNow: false,
   sort: "featured",
+  userLoc: null,
 };
 
 interface FilterCtx {
@@ -84,13 +90,24 @@ function matches(p: PlaceWithGeo, s: FilterState): boolean {
   return true;
 }
 
-function sortPlaces(list: PlaceWithGeo[], sort: SortKey): PlaceWithGeo[] {
+function sortPlaces(
+  list: PlaceWithGeo[],
+  sort: SortKey,
+  userLoc: LatLng | null,
+): PlaceWithGeo[] {
   const arr = [...list];
   switch (sort) {
     case "rating":
       return arr.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
     case "ferry":
       return arr.sort((a, b) => a.nearestFerryKm - b.nearestFerryKm);
+    case "nearby":
+      if (!userLoc) return arr;
+      return arr.sort(
+        (a, b) =>
+          haversineKm(userLoc.lat, userLoc.lng, a.lat, a.lng) -
+          haversineKm(userLoc.lat, userLoc.lng, b.lat, b.lng),
+      );
     case "az":
       return arr.sort((a, b) => a.name.localeCompare(b.name));
     case "featured":
@@ -126,10 +143,13 @@ export function FilterProvider({ children }: { children: ReactNode }) {
     [],
   );
 
-  const reset = useCallback(() => setState(EMPTY), []);
+  const reset = useCallback(
+    () => setState((prev) => ({ ...EMPTY, userLoc: prev.userLoc })),
+    [],
+  );
 
   const results = useMemo(
-    () => sortPlaces(ALL.filter((p) => matches(p, state)), state.sort),
+    () => sortPlaces(ALL.filter((p) => matches(p, state)), state.sort, state.userLoc),
     [state],
   );
 

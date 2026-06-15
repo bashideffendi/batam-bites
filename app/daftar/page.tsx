@@ -32,6 +32,7 @@ export default function DaftarPage() {
             >
               <option value="featured">{t("sort_featured")}</option>
               <option value="rating">{t("sort_rating")}</option>
+              {state.userLoc && <option value="nearby">{t("sort_nearby")}</option>}
               <option value="ferry">{t("sort_nearest_ferry")}</option>
               <option value="az">{t("sort_az")}</option>
             </select>

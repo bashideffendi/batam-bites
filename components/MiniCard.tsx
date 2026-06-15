@@ -5,7 +5,7 @@ import Thumb from "./Thumb";
 import FavButton from "./FavButton";
 import { HalalBadge } from "./Badges";
 import { useFilters } from "@/lib/filters";
-import { useI18n } from "@/lib/i18n";
+import { useI18n, catName } from "@/lib/i18n";
 import { placeMap, categoryMap, ferryMap } from "@/lib/data";
 import { formatRating } from "@/lib/format";
 
@@ -34,7 +34,7 @@ export default function MiniCard() {
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-1.5 text-[11px] font-semibold text-muted">
             <span>{cat?.emoji}</span>
-            <span className="clamp-1">{lang === "id" ? cat?.name_id : cat?.name_en}</span>
+            <span className="clamp-1">{catName(lang, cat)}</span>
           </div>
           <h3 className="clamp-1 text-[15px] font-bold leading-tight">{p.name}</h3>
           <div className="mt-1 flex flex-wrap items-center gap-1.5">

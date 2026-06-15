@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useFilters } from "@/lib/filters";
-import { useI18n } from "@/lib/i18n";
+import { useI18n, catName } from "@/lib/i18n";
 import { categories, categoryCounts } from "@/lib/data";
 
 export default function KategoriPage() {
@@ -48,7 +48,7 @@ export default function KategoriPage() {
               {c.emoji}
             </span>
             <div className="mt-2 text-sm font-bold leading-tight">
-              {lang === "id" ? c.name_id : c.name_en}
+              {catName(lang, c)}
             </div>
             <div className="mt-0.5 text-[11px] font-semibold text-muted">
               {categoryCounts[c.id] ?? 0} {t("results")}

@@ -1,7 +1,7 @@
 export type HalalStatus = "halal" | "non-halal" | "muslim-friendly";
 export type PriceTier = "$" | "$$" | "$$$";
 export type RecLabel = "legendaris" | "hits" | "wajib-coba" | "hidden-gem";
-export type Lang = "id" | "en";
+export type Lang = "id" | "en" | "zh";
 
 export interface Place {
   id: string;
@@ -39,6 +39,7 @@ export interface Category {
   id: string;
   name_id: string;
   name_en: string;
+  name_zh: string;
   emoji: string;
   color: string;
 }
@@ -61,4 +62,21 @@ export interface Ferry {
 export interface PlaceWithGeo extends Place {
   nearestFerryId: string;
   nearestFerryKm: number;
+}
+
+export interface Trail {
+  id: string;
+  title_id: string;
+  title_en: string;
+  title_zh: string;
+  subtitle_id: string;
+  subtitle_en: string;
+  subtitle_zh: string;
+  duration_id: string;
+  duration_en: string;
+  duration_zh: string;
+  emoji: string;
+  color: string;
+  area: string;
+  stops: string[];
 }

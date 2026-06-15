@@ -24,6 +24,21 @@ const ferryIcon = L.divIcon({
   iconAnchor: [13, 13],
 });
 
+const userIcon = L.divIcon({
+  className: "",
+  html: `<div style="width:18px;height:18px;border-radius:50%;background:#2D9CDB;border:3px solid #fff;box-shadow:0 0 0 4px rgba(45,156,219,.3)"></div>`,
+  iconSize: [18, 18],
+  iconAnchor: [9, 9],
+});
+
+function FlyToUser({ loc }: { loc: { lat: number; lng: number } | null }) {
+  const map = useMap();
+  useEffect(() => {
+    if (loc) map.flyTo([loc.lat, loc.lng], 14, { duration: 0.6 });
+  }, [loc, map]);
+  return null;
+}
+
 function FlyTo({ id }: { id: string | null }) {
   const map = useMap();
   const { results } = useFilters();
@@ -63,7 +78,7 @@ function FitResults() {
 }
 
 export default function MapCanvas() {
-  const { results, selectedId, setSelectedId } = useFilters();
+  const { results, selectedId, setSelectedId, state } = useFilters();
 
   const markers = useMemo(
     () =>
@@ -99,7 +114,11 @@ export default function MapCanvas() {
         <Marker key={f.id} position={[f.lat, f.lng]} icon={ferryIcon} />
       ))}
       {markers}
+      {state.userLoc && (
+        <Marker position={[state.userLoc.lat, state.userLoc.lng]} icon={userIcon} />
+      )}
       <FlyTo id={selectedId} />
+      <FlyToUser loc={state.userLoc} />
       <FitResults />
     </MapContainer>
   );

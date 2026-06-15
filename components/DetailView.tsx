@@ -5,14 +5,10 @@ import { useRouter } from "next/navigation";
 import Thumb from "./Thumb";
 import FavButton from "./FavButton";
 import { HalalBadge, LabelBadge } from "./Badges";
-import { useI18n } from "@/lib/i18n";
+import { useI18n, catName } from "@/lib/i18n";
+import { useCurrency } from "@/lib/currency";
 import { categoryMap, areaMap, ferryMap } from "@/lib/data";
-import {
-  formatRating,
-  formatReviews,
-  isOpenNow,
-  sgdEstimate,
-} from "@/lib/format";
+import { formatRating, formatReviews, isOpenNow } from "@/lib/format";
 import type { PlaceWithGeo } from "@/lib/types";
 
 const MiniMap = dynamic(() => import("./MiniMap"), {
@@ -45,12 +41,12 @@ function InfoRow({
 
 export default function DetailView({ place: p }: { place: PlaceWithGeo }) {
   const { t, lang } = useI18n();
+  const { fmt, currency } = useCurrency();
   const router = useRouter();
   const cat = categoryMap[p.category];
   const area = areaMap[p.area]?.name ?? "";
   const ferry = ferryMap[p.nearestFerryId];
   const open = isOpenNow(p.hours);
-  const sgd = sgdEstimate(p.price_idr);
   const desc = lang === "id" ? p.desc_id : p.desc_en;
 
   const share = async () => {
@@ -101,7 +97,7 @@ export default function DetailView({ place: p }: { place: PlaceWithGeo }) {
       <div className="relative -mt-5 rounded-t-3xl bg-bg px-4 pt-4">
         <div className="flex items-center gap-1.5 text-xs font-bold text-muted">
           <span>{cat?.emoji}</span>
-          <span>{lang === "id" ? cat?.name_id : cat?.name_en}</span>
+          <span>{catName(lang, cat)}</span>
           <span className="text-line">·</span>
           <span>📍 {area}</span>
         </div>
@@ -193,7 +189,9 @@ export default function DetailView({ place: p }: { place: PlaceWithGeo }) {
           <InfoRow icon="💰">
             <div className="flex items-center justify-between gap-2">
               <span>{p.price_idr || "—"}</span>
-              {sgd && <span className="text-xs font-bold text-muted">{sgd}</span>}
+              {currency !== "IDR" && fmt(p.price_idr) && (
+                <span className="text-xs font-bold text-muted">{fmt(p.price_idr)}</span>
+              )}
             </div>
           </InfoRow>
           <InfoRow icon="💳">

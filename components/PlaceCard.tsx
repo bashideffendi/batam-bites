@@ -4,9 +4,10 @@ import Link from "next/link";
 import Thumb from "./Thumb";
 import FavButton from "./FavButton";
 import { HalalBadge, LabelBadge } from "./Badges";
-import { useI18n } from "@/lib/i18n";
-import { categoryMap, areaMap } from "@/lib/data";
-import { formatRating, formatReviews, isOpenNow } from "@/lib/format";
+import { useI18n, catName } from "@/lib/i18n";
+import { useFilters } from "@/lib/filters";
+import { categoryMap, areaMap, haversineKm } from "@/lib/data";
+import { formatRating, formatReviews, isOpenNow, formatKm } from "@/lib/format";
 import type { PlaceWithGeo } from "@/lib/types";
 
 function Stars({ rating }: { rating: number | null }) {
@@ -29,9 +30,13 @@ export default function PlaceCard({
   variant?: "row" | "tile";
 }) {
   const { t, lang } = useI18n();
+  const { state } = useFilters();
   const cat = categoryMap[place.category];
   const area = areaMap[place.area]?.name ?? "";
   const open = isOpenNow(place.hours);
+  const dist = state.userLoc
+    ? haversineKm(state.userLoc.lat, state.userLoc.lng, place.lat, place.lng)
+    : null;
 
   if (variant === "tile") {
     return (
@@ -51,7 +56,7 @@ export default function PlaceCard({
         <div className="p-3">
           <div className="flex items-center gap-1.5 text-[11px] font-semibold text-muted">
             <span>{cat?.emoji}</span>
-            <span className="clamp-1">{lang === "id" ? cat?.name_id : cat?.name_en}</span>
+            <span className="clamp-1">{catName(lang, cat)}</span>
           </div>
           <h3 className="clamp-1 mt-0.5 text-sm font-bold">{place.name}</h3>
           <div className="mt-1.5 flex items-center justify-between">
@@ -74,7 +79,7 @@ export default function PlaceCard({
           <div className="min-w-0">
             <div className="flex items-center gap-1.5 text-[11px] font-semibold text-muted">
               <span>{cat?.emoji}</span>
-              <span className="clamp-1">{lang === "id" ? cat?.name_id : cat?.name_en}</span>
+              <span className="clamp-1">{catName(lang, cat)}</span>
             </div>
             <h3 className="clamp-1 text-[15px] font-bold leading-tight">{place.name}</h3>
           </div>
@@ -102,7 +107,14 @@ export default function PlaceCard({
             </>
           )}
         </div>
-        <div className="clamp-1 mt-0.5 text-[11px] text-muted">📍 {area}</div>
+        <div className="clamp-1 mt-0.5 text-[11px] text-muted">
+          📍 {area}
+          {dist != null && (
+            <span className="ml-1 font-semibold text-teal">
+              · {formatKm(dist)} {t("from_you")}
+            </span>
+          )}
+        </div>
       </div>
     </Link>
   );

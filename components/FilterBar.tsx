@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useFilters } from "@/lib/filters";
 import {
   useI18n,
+  catName,
   HALAL_LABEL,
   LABEL_LABEL,
   PRICE_HINT,
@@ -53,6 +54,33 @@ export default function FilterBar({ floating = false }: { floating?: boolean }) 
   const { state, set, toggle, reset, activeCount, results } = useFilters();
   const { t, lang } = useI18n();
   const [open, setOpen] = useState(false);
+  const [locating, setLocating] = useState(false);
+
+  const requestLoc = () => {
+    if (state.userLoc) {
+      set({ userLoc: null, sort: "featured" });
+      return;
+    }
+    if (typeof navigator === "undefined" || !navigator.geolocation) {
+      alert(t("loc_denied"));
+      return;
+    }
+    setLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        set({
+          userLoc: { lat: pos.coords.latitude, lng: pos.coords.longitude },
+          sort: "nearby",
+        });
+        setLocating(false);
+      },
+      () => {
+        alert(t("loc_denied"));
+        setLocating(false);
+      },
+      { enableHighAccuracy: true, timeout: 10000 },
+    );
+  };
 
   const rowBase =
     "no-scrollbar flex items-center gap-2 overflow-x-auto px-4 py-2.5";
@@ -84,6 +112,9 @@ export default function FilterBar({ floating = false }: { floating?: boolean }) 
         <Chip active={state.openNow} onClick={() => set({ openNow: !state.openNow })}>
           🟢 {t("open_now")}
         </Chip>
+        <Chip active={!!state.userLoc} onClick={requestLoc}>
+          📍 {locating ? t("locating") : t("near_me")}
+        </Chip>
         <span className="h-5 w-px shrink-0 bg-line" />
         {categories.map((c) => (
           <Chip
@@ -91,7 +122,7 @@ export default function FilterBar({ floating = false }: { floating?: boolean }) 
             active={state.cats.includes(c.id)}
             onClick={() => toggle("cats", c.id)}
           >
-            {c.emoji} {lang === "id" ? c.name_id : c.name_en}
+            {c.emoji} {catName(lang, c)}
           </Chip>
         ))}
       </div>
@@ -128,7 +159,7 @@ export default function FilterBar({ floating = false }: { floating?: boolean }) 
               <Section title={t("category")}>
                 {categories.map((c) => (
                   <Chip key={c.id} active={state.cats.includes(c.id)} onClick={() => toggle("cats", c.id)}>
-                    {c.emoji} {lang === "id" ? c.name_id : c.name_en}
+                    {c.emoji} {catName(lang, c)}
                   </Chip>
                 ))}
               </Section>

@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import SearchBar from "@/components/SearchBar";
 import PlaceCard from "@/components/PlaceCard";
+import TrailCard from "@/components/TrailCard";
 import { useFilters, type FilterState } from "@/lib/filters";
-import { useI18n } from "@/lib/i18n";
+import { useI18n, catName } from "@/lib/i18n";
 import { places, categories, ferries } from "@/lib/data";
+import { trails } from "@/lib/trails";
 
 const featured = places.filter((p) => p.featured);
 const legendaris = places.filter((p) => p.labels.includes("legendaris"));
@@ -69,6 +71,12 @@ export default function Home() {
               <br />
               <span className="text-brick">tanpa nyasar.</span>
             </>
+          ) : lang === "zh" ? (
+            <>
+              吃遍巴淡岛，
+              <br />
+              <span className="text-brick">像当地人一样。</span>
+            </>
           ) : (
             <>
               Eat the best of Batam,
@@ -80,7 +88,9 @@ export default function Home() {
         <p className="mt-1 text-[13px] text-muted">
           {lang === "id"
             ? "118 warung legendaris, seafood, & hidden gem — dikurasi, gratis, tanpa iklan."
-            : "118 legendary warungs, seafood & hidden gems — curated, free, ad-free."}
+            : lang === "zh"
+              ? "118 家老字号、海鲜与隐藏美食 — 精心精选，免费，无广告。"
+              : "118 legendary warungs, seafood & hidden gems — curated, free, ad-free."}
         </p>
         <div className="mt-3">
           <SearchBar />
@@ -125,7 +135,7 @@ export default function Home() {
                     onClick={() => go({ cats: [id] })}
                     className="shrink-0 rounded-full border border-line bg-card px-3.5 py-2 text-xs font-bold"
                   >
-                    {c.emoji} {lang === "id" ? c.name_id : c.name_en}
+                    {c.emoji} {catName(lang, c)}
                   </button>
                 );
               },
@@ -173,6 +183,21 @@ export default function Home() {
             onSeeAll={() => go({ labels: ["hits"] })}
           />
 
+          {/* Food Trails */}
+          <section className="mt-6">
+            <div className="mb-2 flex items-center justify-between px-4">
+              <h2 className="text-[15px] font-extrabold">🗺️ {t("trails")}</h2>
+              <Link href="/jalur" className="text-xs font-bold text-brick">
+                {t("see_all")} →
+              </Link>
+            </div>
+            <div className="no-scrollbar flex gap-3 overflow-x-auto px-4 pb-1">
+              {trails.map((tr) => (
+                <TrailCard key={tr.id} trail={tr} variant="tile" />
+              ))}
+            </div>
+          </section>
+
           {/* Category grid */}
           <section className="mt-6 px-4">
             <div className="mb-2 flex items-center justify-between">
@@ -190,7 +215,7 @@ export default function Home() {
                 >
                   <span className="text-2xl">{c.emoji}</span>
                   <span className="clamp-1 w-full px-1 text-center text-[10px] font-semibold text-muted">
-                    {lang === "id" ? c.name_id : c.name_en}
+                    {catName(lang, c)}
                   </span>
                 </button>
               ))}
