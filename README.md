@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Batam Bites 🍜
 
-## Getting Started
+Direktori kuliner Batam yang dikurasi tangan untuk **turis mancanegara** (SG/MY/中文-ready). Peta + daftar + filter Halal, dibikin buat turis yang baru turun dari ferry.
 
-First, run the development server:
+> "Your pocket food map for Batam — curated, free, ad-free."
+
+## Stack
+
+- **Next.js 16** (App Router, Turbopack) + **React 19** + **TypeScript**
+- **Tailwind CSS v4** (design tokens via `@theme`)
+- **Leaflet + react-leaflet v5** di atas tiles **OpenStreetMap / CARTO Voyager** (gratis, no API key)
+- **Data statis JSON** (no database) — favorit via `localStorage`
+- **PWA** (manifest + service worker, installable / add-to-home-screen)
+
+## Fitur
+
+- 🗺️ Peta interaktif 118 tempat (pin per-kategori) ⟷ 📋 Daftar — **filter tersinkron** lewat satu context
+- 🔍 Search + filter **Halal**, kategori (17), area, harga ($/$$/$$$), terminal ferry, label, "buka sekarang"
+- ⛴ Jarak ke terminal ferry dihitung otomatis (haversine), shortcut "Dekat Terminal Ferry"
+- 🏷️ Label kurasi: Legendaris / Hits / Wajib Coba / Hidden Gem
+- 📄 Halaman detail: menu andalan, jam buka + "buka sekarang", harga IDR + ~SGD, pembayaran (Cash/QRIS), mini-map, tombol **Navigasi** (deep-link Google Maps)
+- ❤️ Favorit/bookmark · 🌐 Bilingual **ID/EN** (struktur siap 中文) · 📱 mobile-first PWA
+
+## Data
+
+`data/places.json` (118 tempat) digabung dari riset: direktori luas (120+) + deep-research terverifikasi (18 tempat: alamat, telp, jam, rating, review).
+Pendukung: `categories.json` (17), `areas.json` (15), `ferries.json` (4 terminal).
+
+- `featured`: 13 ikon wajib coba · `verified`: 18 tempat data lengkap
+- Koordinat pin = centroid area + jitter (`coord_approx: true`) — tombol Navigasi tetap akurat (query Google Maps)
+- Regenerasi ikon PWA: `node scripts/gen-icons.mjs`
+
+## Jalankan
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Catatan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Status halal = hasil kurasi best-effort (lihat halaman About) — verifikasi langsung bila ragu.
+- Ganti placeholder foto: tambah field `photo` ke item di `places.json` lalu render di `components/Thumb.tsx`.
+- Target deploy: Vercel (gratis, non-komersial) → subdomain `batambites.masbash.id` (rencana).
