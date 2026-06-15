@@ -42,7 +42,7 @@ export default function PlaceCard({
     return (
       <Link
         href={`/tempat/${place.id}`}
-        className="group block w-[200px] shrink-0 overflow-hidden rounded-2xl border border-line bg-card shadow-[var(--shadow-card)]"
+        className="group block w-[200px] shrink-0 overflow-hidden rounded-2xl border border-line bg-card shadow-[var(--shadow-card)] md:w-auto md:shrink"
       >
         <div className="relative">
           <Thumb category={place.category} className="h-28 w-full" rounded="rounded-none" />

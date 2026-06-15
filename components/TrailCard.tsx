@@ -19,7 +19,7 @@ export default function TrailCard({
     <Link
       href={`/jalur/${trail.id}`}
       className={`block overflow-hidden rounded-2xl border border-line bg-card shadow-[var(--shadow-card)] transition active:scale-[0.99] ${
-        variant === "tile" ? "w-[260px] shrink-0" : ""
+        variant === "tile" ? "w-[260px] shrink-0 md:w-auto md:shrink" : ""
       }`}
     >
       <div

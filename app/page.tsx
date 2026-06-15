@@ -38,8 +38,8 @@ function Row({
           {t("see_all")} →
         </button>
       </div>
-      <div className="no-scrollbar flex gap-3 overflow-x-auto px-4 pb-1">
-        {items.map((p) => (
+      <div className="no-scrollbar flex gap-3 overflow-x-auto px-4 pb-1 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible lg:grid-cols-4">
+        {items.slice(0, 8).map((p) => (
           <PlaceCard key={p.id} place={p} variant="tile" />
         ))}
       </div>
@@ -63,8 +63,8 @@ export default function Home() {
   return (
     <div className="no-scrollbar overflow-y-auto pb-28">
       {/* Hero */}
-      <div className="bg-gradient-to-b from-sand to-bg px-4 pb-3 pt-4">
-        <h1 className="text-[22px] font-extrabold leading-tight">
+      <div className="bg-gradient-to-b from-sand to-bg px-4 pb-3 pt-4 md:pb-8 md:pt-12">
+        <h1 className="text-[22px] font-extrabold leading-tight md:text-[40px]">
           {lang === "id" ? (
             <>
               Makan enak di Batam,
@@ -85,14 +85,14 @@ export default function Home() {
             </>
           )}
         </h1>
-        <p className="mt-1 text-[13px] text-muted">
+        <p className="mt-1 text-[13px] text-muted md:mt-3 md:text-lg">
           {lang === "id"
             ? `${places.length} warung legendaris, seafood, & hidden gem — dikurasi, gratis, tanpa iklan.`
             : lang === "zh"
               ? `${places.length} 家老字号、海鲜与隐藏美食 — 精心精选，免费，无广告。`
               : `${places.length} legendary warungs, seafood & hidden gems — curated, free, ad-free.`}
         </p>
-        <div className="mt-3">
+        <div className="mt-3 md:max-w-xl">
           <SearchBar />
         </div>
       </div>
@@ -107,19 +107,21 @@ export default function Home() {
               {t("see_all")} →
             </Link>
           </div>
-          <div className="space-y-2.5">
-            {results.slice(0, 6).map((p) => (
+          <div className="space-y-2.5 md:grid md:grid-cols-2 md:gap-3 md:space-y-0 lg:grid-cols-3">
+            {results.slice(0, 9).map((p) => (
               <PlaceCard key={p.id} place={p} />
             ))}
             {results.length === 0 && (
-              <p className="py-10 text-center text-sm text-muted">{t("no_results")}</p>
+              <p className="py-10 text-center text-sm text-muted md:col-span-full">
+                {t("no_results")}
+              </p>
             )}
           </div>
         </section>
       ) : (
         <>
           {/* Quick chips */}
-          <div className="no-scrollbar mt-3 flex gap-2 overflow-x-auto px-4">
+          <div className="no-scrollbar mt-3 flex gap-2 overflow-x-auto px-4 md:flex-wrap">
             <button
               onClick={() => go({ halal: ["halal"] })}
               className="shrink-0 rounded-full bg-halal/12 px-3.5 py-2 text-xs font-bold text-halal"
@@ -191,7 +193,7 @@ export default function Home() {
                 {t("see_all")} →
               </Link>
             </div>
-            <div className="no-scrollbar flex gap-3 overflow-x-auto px-4 pb-1">
+            <div className="no-scrollbar flex gap-3 overflow-x-auto px-4 pb-1 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible lg:grid-cols-5">
               {trails.map((tr) => (
                 <TrailCard key={tr.id} trail={tr} variant="tile" />
               ))}
