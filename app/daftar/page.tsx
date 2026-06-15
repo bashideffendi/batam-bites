@@ -12,7 +12,7 @@ export default function DaftarPage() {
   const { t } = useI18n();
 
   return (
-    <div className="flex h-[calc(100dvh-3.5rem-4.25rem)] flex-col">
+    <div className="flex h-[calc(100dvh-3.5rem-4.25rem)] flex-col md:h-[calc(100dvh-3.5rem)]">
       <div className="space-y-2.5 px-4 pt-3">
         <SearchBar />
       </div>
@@ -49,9 +49,11 @@ export default function DaftarPage() {
         </div>
       </div>
 
-      <div className="no-scrollbar flex-1 space-y-2.5 overflow-y-auto px-4 pb-28 pt-1">
+      <div className="no-scrollbar flex-1 space-y-2.5 overflow-y-auto px-4 pb-28 pt-1 md:grid md:auto-rows-min md:grid-cols-2 md:gap-3 md:space-y-0 md:pb-8 lg:grid-cols-3">
         {results.length === 0 ? (
-          <p className="mt-16 text-center text-sm text-muted">{t("no_results")}</p>
+          <p className="mt-16 text-center text-sm text-muted md:col-span-full">
+            {t("no_results")}
+          </p>
         ) : (
           results.map((p) => <PlaceCard key={p.id} place={p} />)
         )}

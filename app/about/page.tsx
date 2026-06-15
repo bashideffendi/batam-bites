@@ -10,7 +10,7 @@ export default function AboutPage() {
   const id = lang === "id";
 
   return (
-    <div className="no-scrollbar overflow-y-auto px-4 pb-28 pt-4">
+    <div className="no-scrollbar overflow-y-auto px-4 pb-28 pt-4 md:mx-auto md:max-w-2xl md:pb-10">
       <h1 className="text-2xl font-extrabold">
         {id ? "Tentang Batam Bites" : "About Batam Bites"}
       </h1>

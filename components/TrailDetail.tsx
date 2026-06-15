@@ -18,7 +18,7 @@ export default function TrailDetail({ trail }: { trail: Trail }) {
   const stops = trailStops(trail);
 
   return (
-    <div className="no-scrollbar overflow-y-auto pb-28">
+    <div className="no-scrollbar overflow-y-auto pb-28 md:mx-auto md:max-w-3xl md:pb-10">
       <div
         className="relative px-4 pb-5 pt-4"
         style={{

@@ -145,7 +145,7 @@ export default function Home() {
           {/* Near ferry */}
           <section className="mt-5 px-4">
             <h2 className="mb-2 text-[15px] font-extrabold">⛴ {t("near_ferry")}</h2>
-            <div className="grid grid-cols-2 gap-2.5">
+            <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
               {ferries.map((f) => (
                 <button
                   key={f.id}
@@ -206,7 +206,7 @@ export default function Home() {
                 {t("see_all")} →
               </Link>
             </div>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-4 gap-2 md:grid-cols-8">
               {categories.slice(0, 8).map((c) => (
                 <button
                   key={c.id}

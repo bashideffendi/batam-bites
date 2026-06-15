@@ -27,7 +27,7 @@ export default function KategoriPage() {
         </p>
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-3 px-4">
+      <div className="mt-4 grid grid-cols-2 gap-3 px-4 md:grid-cols-3 lg:grid-cols-4">
         {categories.map((c) => (
           <button
             key={c.id}

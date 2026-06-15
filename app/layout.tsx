@@ -39,9 +39,11 @@ export default function RootLayout({
     <html lang="id" className={`${jakarta.variable} h-full antialiased`}>
       <body className="min-h-full">
         <Providers>
-          <div className="app-shell flex flex-col">
+          <div className="app-shell flex max-w-[480px] flex-col md:max-w-none">
             <Header />
-            <main className="flex-1 min-h-0">{children}</main>
+            <main className="min-h-0 w-full flex-1 md:mx-auto md:max-w-6xl">
+              {children}
+            </main>
             <BottomNav />
           </div>
         </Providers>

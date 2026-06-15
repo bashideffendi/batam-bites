@@ -63,7 +63,7 @@ export default function DetailView({ place: p }: { place: PlaceWithGeo }) {
   };
 
   return (
-    <div className="no-scrollbar overflow-y-auto pb-28">
+    <div className="no-scrollbar overflow-y-auto pb-28 md:mx-auto md:max-w-2xl md:pb-10">
       {/* Hero */}
       <div className="relative">
         <Thumb category={p.category} className="h-52 w-full" rounded="rounded-none" size="lg" />

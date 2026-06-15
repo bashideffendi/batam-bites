@@ -62,7 +62,7 @@ export default function BottomNav() {
   ];
 
   return (
-    <nav className="bottom-safe fixed left-1/2 z-50 w-full max-w-[480px] -translate-x-1/2 border-t border-line bg-card/95 backdrop-blur-md">
+    <nav className="bottom-safe fixed left-1/2 z-50 w-full max-w-[480px] -translate-x-1/2 border-t border-line bg-card/95 backdrop-blur-md md:hidden">
       <ul className="flex items-stretch justify-around px-1 pt-1.5 pb-1.5">
         {items.map((it) => {
           const active =

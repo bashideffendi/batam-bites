@@ -19,7 +19,7 @@ export default function JalurPage() {
             : "Themed food routes — just follow the order."}
       </p>
 
-      <div className="mt-4 space-y-3">
+      <div className="mt-4 space-y-3 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 lg:grid-cols-3">
         {trails.map((tr) => (
           <TrailCard key={tr.id} trail={tr} />
         ))}

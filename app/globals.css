@@ -44,15 +44,17 @@ body {
 }
 
 /* App shell: phone-width canvas centered on large screens */
+/* Width is controlled by Tailwind utilities on the element (max-w-[480px]
+   md:max-w-none) so it composes predictably with the utilities layer. */
 .app-shell {
   width: 100%;
-  max-width: 480px;
   margin-inline: auto;
   min-height: 100dvh;
   position: relative;
   background: var(--color-bg);
 }
-@media (min-width: 481px) {
+/* Phone-frame look only on the narrow band between mobile and tablet */
+@media (min-width: 481px) and (max-width: 767px) {
   .app-shell {
     box-shadow: 0 0 0 1px var(--color-line), 0 24px 70px rgba(27, 22, 20, 0.14);
   }
