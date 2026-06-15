@@ -14,7 +14,7 @@ Direktori kuliner Batam yang dikurasi tangan untuk **turis mancanegara** (SG/MY/
 
 ## Fitur
 
-- 🗺️ Peta interaktif 118 tempat (pin per-kategori) ⟷ 📋 Daftar — **filter tersinkron** lewat satu context
+- 🗺️ Peta interaktif 117 tempat (pin per-kategori) ⟷ 📋 Daftar — **filter tersinkron** lewat satu context
 - 🔍 Search + filter **Halal**, kategori (17), area, harga ($/$$/$$$), terminal ferry, label, "buka sekarang"
 - ⛴ Jarak ke terminal ferry dihitung otomatis (haversine), shortcut "Dekat Terminal Ferry"
 - 🏷️ Label kurasi: Legendaris / Hits / Wajib Coba / Hidden Gem
@@ -23,7 +23,7 @@ Direktori kuliner Batam yang dikurasi tangan untuk **turis mancanegara** (SG/MY/
 
 ## Data
 
-`data/places.json` (118 tempat) digabung dari riset: direktori luas (120+) + deep-research terverifikasi (18 tempat: alamat, telp, jam, rating, review).
+`data/places.json` (117 tempat) digabung dari riset: direktori luas (120+) + deep-research terverifikasi (18 tempat: alamat, telp, jam, rating, review).
 Pendukung: `categories.json` (17), `areas.json` (15), `ferries.json` (4 terminal).
 
 - `featured`: 13 ikon wajib coba · `verified`: 18 tempat data lengkap

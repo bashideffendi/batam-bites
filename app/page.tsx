@@ -87,10 +87,10 @@ export default function Home() {
         </h1>
         <p className="mt-1 text-[13px] text-muted">
           {lang === "id"
-            ? "118 warung legendaris, seafood, & hidden gem — dikurasi, gratis, tanpa iklan."
+            ? `${places.length} warung legendaris, seafood, & hidden gem — dikurasi, gratis, tanpa iklan.`
             : lang === "zh"
-              ? "118 家老字号、海鲜与隐藏美食 — 精心精选，免费，无广告。"
-              : "118 legendary warungs, seafood & hidden gems — curated, free, ad-free."}
+              ? `${places.length} 家老字号、海鲜与隐藏美食 — 精心精选，免费，无广告。`
+              : `${places.length} legendary warungs, seafood & hidden gems — curated, free, ad-free.`}
         </p>
         <div className="mt-3">
           <SearchBar />
